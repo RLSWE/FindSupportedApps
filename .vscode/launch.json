@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug FindSupportedApps",
+            "program": "${workspaceFolder:FindSupportedApps}/.build/debug/FindSupportedApps",
+            "args": [],
+            "cwd": "${workspaceFolder:FindSupportedApps}",
+            "preLaunchTask": "swift: Build Debug FindSupportedApps"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release FindSupportedApps",
+            "program": "${workspaceFolder:FindSupportedApps}/.build/release/FindSupportedApps",
+            "args": [],
+            "cwd": "${workspaceFolder:FindSupportedApps}",
+            "preLaunchTask": "swift: Build Release FindSupportedApps"
+        }
+    ]
+}
